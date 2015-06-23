@@ -1,0 +1,18 @@
+//
+//  WXPay.pch
+//  WXPayUseDemo
+//
+//  Created by zezefamily on 15/6/19.
+//  Copyright (c) 2015年 zezefamily. All rights reserved.
+//
+
+#ifndef WXPayUseDemo_WXPay_pch
+#define WXPayUseDemo_WXPay_pch
+
+#define WX_AppSecret @"8bfe641b89a67aed277d242cdb05d7f2"
+#define WX_AppID @"wx741a39a1910910b0"
+
+
+
+
+#endif

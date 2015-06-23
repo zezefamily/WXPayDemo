@@ -4,10 +4,23 @@
 //
 //  Created by zezefamily on 15/6/19.
 //  Copyright (c) 2015年 zezefamily. All rights reserved.
-//
+
+/**************************************************************
+ 
+ >添加WeichatSDK  并在target->info->URL Type 中添加应用;
+ 
+ >从微信支付的整个业务逻辑来看，前端需要做的操作相对简单，较多工作量留给了后台
+    不过在此笔者扩展了下前端的AccessToken获取,生成package,返回最终的prepayid;
+ (仅供参考)
+ 
+ >初始化微信支付
+ 
+ >回调相关代理方法
+ 
+**************************************************************/
 
 #import "AppDelegate.h"
-
+#import "WXApi.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +30,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    向微信注册APP
+    //[WXApi registerApp:@"wx741a39a1910910b0" withDescription:@"zezefamily"];
+    
     return YES;
 }
 
